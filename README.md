@@ -8,7 +8,7 @@ Our system would essentially act as an “electronic gun safe”, comparable to 
 In accordance with our DApp design choices, each gun is tagged with a non-fungible token stored in a publicly decentralized database according to the ERC721 token primitive standard. ERC721 allows for the minting of tokens by the contract deployer (in this case, the government) and allows for tangible assets to be tracked by digital assets. Even though each gun is attached to an owner’s address rather than their identity, it still allows public officials to track who owns what gun simply by querying the blockchain from an administrator account.
 
 ## Instructions to Run
-1. Go to (Remix)[https://remix.ethereum.org/#optimize=false&version=soljson-v0.5.1+commit.c8a2cb62.js], an online IDE for developing Ethereum smart contracts
+1. Go to [Remix](https://remix.ethereum.org/#optimize=false&version=soljson-v0.5.1+commit.c8a2cb62.js), an online IDE for developing Ethereum smart contracts
 2. Delete any default files by exiting out of them
 3. In the top left, click the plus button and add a file called "GunControl.sol"
 4. Copy the code in the GunControl.sol file in this repository into that file
